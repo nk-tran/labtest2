@@ -1,19 +1,25 @@
 .weather-card {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 350px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.7);
     color: white;
+    text-align: center;
+    margin: 20px auto;
 }
 
 .main-section {
+    width: 100%;
+    padding: 20px;
     background-size: cover;
     background-position: center;
-    padding: 20px;
-    text-align: left;
+    background-color: #4a90e2;
+    padding-right: 2px;
 }
 
 .date-info {
@@ -30,32 +36,35 @@
 }
 
 .temp-info {
-    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2em;
+}
+
+.weather-icon {
+    width: 60px;
+    height: 60px;
 }
 
 .details-section {
+    width: 100%;
     background-color: #2d2d2d;
     padding: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .details {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .details p {
-    margin: 5px 0;
+    margin: 8px 0;
+    font-size: 0.9em;
 }
 
-.forecast {
-    display: flex;
-    justify-content: space-between;
-}
-
-.forecast-day {
-    text-align: center;
-}
-
-.forecast-day img {
-    width: 40px;
-    height: 40px;
+.details p strong {
+    font-weight: bold;
+    color: #fff;
 }
