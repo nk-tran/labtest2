@@ -1,0 +1,61 @@
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.main-section {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.date-info {
+    margin-bottom: 20px;
+}
+
+.date-info h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.date-info p {
+    margin: 5px 0;
+}
+
+.temp-info {
+    font-size: 1.5em;
+}
+
+.details-section {
+    background-color: #2d2d2d;
+    padding: 15px;
+}
+
+.details {
+    margin-bottom: 15px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast-day {
+    text-align: center;
+}
+
+.forecast-day img {
+    width: 40px;
+    height: 40px;
+}
